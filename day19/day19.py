@@ -9,7 +9,7 @@ def part1(inp):
     last = n
     n = n*2+1
   
-  return abs(last-inp)*2-1
+  return (inp-last)*2-1
 
 def part2(inp):
   n = 3
